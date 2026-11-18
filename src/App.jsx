@@ -19,8 +19,8 @@ import {
 } from 'lucide-react'
 
 import ReportIssue from './page/citizen/Reportissue.jsx'
-import ComplaintDetails from './page/citizen/ComplaintDetails'
-import MapView from './page/citizen/MapView'
+import ComplaintDetails from './page/citizen/ComplaintDetails.jsx'
+import MapView from './page/citizen/MapView.jsx'
 
 
 function App() {
