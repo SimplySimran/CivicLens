@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+@import "tailwindcss";
+
+:root {
+  font-family: 'DM Sans', sans-serif;
+  color: #142b35;
+  background: #f4f6f2;
+
+  --navy: #102a35;
+  --navy-light: #183d48;
+  --mint: #b8f36b;
+  --mint-dark: #91cf42;
+  --surface: #ffffff;
+  --background: #f4f6f2;
+  --text-primary: #142b35;
+  --text-muted: #718078;
+  --border: #e5eae3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: var(--background);
+  color: var(--text-primary);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Space Grotesk', sans-serif;
+  letter-spacing: -0.035em;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+::selection {
+  background: var(--mint);
+  color: var(--navy);
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #b9c6bd;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+button, a, input, textarea, select {
+  transition: all 0.2s ease;
+}
