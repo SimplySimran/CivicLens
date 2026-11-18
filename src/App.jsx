@@ -18,7 +18,7 @@ import {
   Circle
 } from 'lucide-react'
 
-import ReportIssue from './page/citizen/ReportIssue'
+import ReportIssue from './page/citizen/Reportissue.jsx'
 import ComplaintDetails from './page/citizen/ComplaintDetails'
 import MapView from './page/citizen/MapView'
 
